@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodFood website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+    <div class="navbar">
+       
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Good_Food.svg/1200px-Good_Food.svg.png" class="dficon" id="header-img">
+        <div class="header-text">
+            <p>GoodFood</p>
+        </div></div>
+        
+<div class="options" id="navbar-menu">
+    <nav id="nav-bar">
+    <ul>
+        <li><a href="#Features" class="nav-link">Features</a></li>
+        <li><a href="#How-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#Pricing" class="nav-link">Latest</a></li>
+    </ul>
+</div>
+<div class="hamburger" id="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+</nav>
+</header>
+
+<div class="title">
+    <p>Good Food Delivered To Your Home</p>
+</div><br>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<div class="input">
+<label for="email">
+    <input type="email"  placeholder="Enter your email address*" id="email" name="email" required>
+</label>
+<label for="button">
+    <input type="submit" value="Get started" id="submit">
+</label>
+</div>
+</form><br><br><br>
+
+<div class="main1" id="Features">
+<div class="dec">
+    <div class="img">
+        <img src="https://www.freeiconspng.com/thumbs/truck-icon/truck-icon-31.png" alt="truck-icon" id="img"></div>
+    <div><p><span>Real Quality</span><br> we put real quality for a teast we didnt use any artificial things for good teast.  we care about your health first.</p></div></div>
+<br><br><br>
+
+<div class="dec"><div class="img">
+    <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/thumbs-up-512.png" alt="thumbs-up-icon" id="img"></div>
+    <div ><p><span>100% satisfaction</span><br> Read our trustpilot reviews to see our customer get 100% </p></div></div><br><br><br>
+
+    <div class="dec"><div class="img">
+    <img src="https://cdn-icons-png.flaticon.com/512/3141/3141649.png" alt="diet-icon" id="img"></div><div>
+    <p><span>Food for all diets</span><br>We offer food for all diet requirement, including vegan & gluten free</p>
+</div></div></div><br><br><br><br>
+
+<div class="media" id="How-it-works">
+    <iframe width="600px" height="400px"
+            src="https://www.youtube.com/embed/knHTQQHd9po" id="video"> 
+      </iframe> 
+</div><br><br>
+
+
+<div class="main" id="Pricing">
+    <div class="cards">
+        <img src="https://www.goodfood-company.com/cdn/shop/articles/Chicken_Tacos_6eb72e22-1e13-4f64-a2da-26137502fd38_2000x.png?v=1710174908" alt="chicken" id="img1">
+        <br>
+<p><span>Chicken Tacos</span><br>November 9, 2023</p>
+    </div>
+    <div class="cards">
+        <div class="img1"><img src="https://www.goodfood-company.com/cdn/shop/articles/Pulled_Pork_Naanwich_2000x.png?v=1710174942" alt="pull" id="img1"></div>
+        <div class="value"><p><span>Pulled Pork Naanwich</span><br>November 8, 2023
+        </p></div>
+        
+    </div>
+    <div class="cards">
+        <div class="img1"></div>
+        <img src="https://www.goodfood-company.com/cdn/shop/articles/Cheese_Onion_Chutney_Toastie_2000x.png?v=1710174925" alt="onion" id="img1">
+        <p><span>Cheese & Onion Chutney Toastie</span><br>November 9, 2023</p>
+    </div>
+</div><br><br><br>
+<div class="footer">
+    <div class="cse">
+        <div class="img">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/009/603/non_2x/email-and-mail-icon-black-free-png.png" alt="email-icon" id="img">
+        </div>
+        <div class="text">
+            <p><span>Customer Service Email</span><br>customerhelp@goodfood-company.com</p>
+        </div>
+    </div>
+
+    <div class="cse">
+        <div class="img">
+            <img src="https://www.freeiconspng.com/thumbs/phone-icon/white-phone-icon-png--clipart-best-30.png" alt="call-icon" id="img">
+        </div>
+        <div class="text">
+            <p><span>Call us on</span><br>01933 422060</p>
+        </div>
+    </div>
+
+    <div class="cse">
+        <div class="img">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/009/589/471/small/home-icon-transparent-free-png.png" alt="email-icon" id="img">
+        </div>
+        <div class="text">
+            <p><span>Our address</span><br>11 Fleming Close,
+                Park Farm Industrial Estate, Wellingborough, NN8 6UF</p>
+        </div>
+    </div>    
+</div><br><br>
+<script>
+    document.getElementById('hamburger').addEventListener('click', ()=>{
+      var menu=document.getElementById('navbar-menu').querySelector('ul');
+      menu.classList.toggle('active');
+      var hamburger=document.getElementById('hamburger');
+      hamburger.classList.toggle('active');
+      
+    })
+</script>
+</body>
+</html>
