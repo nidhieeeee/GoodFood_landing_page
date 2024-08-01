@@ -37,6 +37,9 @@ The Good Foods Landing Page is designed to attract potential customers and provi
 ### To see the Good Foods Landing Page in action
 ![demovideo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExampsdnNzY2lpNHVlb2E2eWlmMTFldm4weGVqOGp3ejdjaHR0OGdqciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DYlE8VMCnhJd4v3hIm/giphy.gif)
 
+## Live Page
+[![GoodFood](https://img.shields.io/badge/GoodFood-Click_Here-brightgreen)](https://nidhieeeee.github.io/GoodFood_landing_page/)
+
 ## Installation
 
 1. Clone the repository:
