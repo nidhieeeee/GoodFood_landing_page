@@ -34,20 +34,18 @@ The Good Foods Landing Page is designed to attract potential customers and provi
 
 
 ## Demo Video
-
-To see the Good Foods Landing Page in action, click the button below:
-
-[![Click here to view](path-to-your-demo-thumbnail)](path-to-your-demo-video-url)
+### To see the Good Foods Landing Page in action
+![demovideo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExampsdnNzY2lpNHVlb2E2eWlmMTFldm4weGVqOGp3ejdjaHR0OGdqciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DYlE8VMCnhJd4v3hIm/giphy.gif)
 
 ## Installation
 
 1. Clone the repository:
    bash
-   git clone https://github.com/yourusername/good-foods-landing-page.git
+   git clone https://github.com/nidhieeeee/GoodFood-landing-page.git
    
 2. Navigate to the project directory:
    bash
-   cd good-foods-landing-page
+   cd GoodFood-landing-page
 
 3. Open index.html in your preferred web browser.
 
@@ -58,4 +56,4 @@ Feel free to customize the content, images, and links to match your preferences.
 This is a personal project, but any suggestions or improvements are welcome. Feel free to reach out or submit a pull request.
 
 ## Contact
-For any questions or feedback, you can reach me at your-email@example.com.
+For any questions or feedback, you can reach me at nidhimehta0303@gmail.com .
