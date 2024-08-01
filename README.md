@@ -40,11 +40,11 @@ The Good Foods Landing Page is designed to attract potential customers and provi
 ## Installation
 
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/nidhieeeee/GoodFood-landing-page.git
    
 2. Navigate to the project directory:
-   bash
+   ```bash
    cd GoodFood-landing-page
 
 3. Open index.html in your preferred web browser.
