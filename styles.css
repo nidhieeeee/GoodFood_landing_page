@@ -233,6 +233,10 @@ transition: all 0.5s ease;
     .options ul.active {
         display: flex;
     }
+    .dec{
+        width:auto;
+    }
+    
 
 }
     
